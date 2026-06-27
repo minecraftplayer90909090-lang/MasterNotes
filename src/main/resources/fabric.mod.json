@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "masternotes",
+  "version": "${version}",
+  "name": "Master Notes",
+  "description": "Notes, Goal Tracker and Screenshot Viewer — all in one. By AbhayTheMaster.",
+  "authors": [ "AbhayTheMaster" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.abhaythmaster.masternotes.MasterNotesClient" ]
+  },
+  "mixins": [ "masternotes.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
